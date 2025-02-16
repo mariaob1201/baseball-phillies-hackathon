@@ -1,0 +1,7 @@
+.idea
+venv
+venv/
+__pycache__/
+__pycache__/functions.cpython-312.pyc
+__pycache__
+Hackathon2024-baseball-backup/.streamlit/

@@ -1,0 +1,12 @@
+plotly
+streamlit
+numpy
+pandas
+seaborn
+matplotlib
+requests
+scikit-learn==1.2.0
+joblib==1.2.0
+pygam
+emoji
+boto3

@@ -1,0 +1,51 @@
+/* Baseball-themed sidebar styles with a girl-themed twist */
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #0d2c5c; /* Dark blue, resembling a baseball cap color */
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun, playful font */
+}
+
+.sidenav a {
+  padding: 12px 20px; /* Slightly larger padding */
+  text-decoration: none;
+  font-size: 22px; /* Slightly larger font size */
+  color: #ff69b4; /* Hot pink for a girl-themed twist */
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #fff; /* White on hover */
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 30px; /* Close button size */
+  color: #ff69b4; /* Hot pink */
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px; /* Standard padding */
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun, playful font */
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px; /* Smaller font size for smaller screens */
+  }
+}
